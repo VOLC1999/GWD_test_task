@@ -74,6 +74,7 @@ var App = function() {
                 wheelSpeed:.5,
                 swipeEasing:!0,
                 minScrollbarLength:40,
+                wheelPropagation: true,
                 maxScrollbarLength:300,
                 suppressScrollX : true
             });
